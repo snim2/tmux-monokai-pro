@@ -6,11 +6,16 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
+Using [tpm](https://github.com/tmux-plugins/tpm), add the following to your `.tmux.conf` file:
 
+```
+set -g @plugin 'snim2/tmux-monokai-pro'
+```
 ## Configuration
 
-Configuration and options can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
+Configuration and options can be found at [draculatheme.com/tmux](https://monokaitheme.com/tmux).
+
+Note that all configuration on those pages needs `dracula` to be replaced by `monokai`.
 
 ## Features
 
@@ -41,20 +46,11 @@ Configuration and options can be found at [draculatheme.com/tmux](https://dracul
 Compatible with macOS and Linux. Tested on tmux 3.1b
 FreeBSD compatibility is in development
 
-## Team
+## Credits
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/tmux/graphs/contributors).
+This theme was forked from [dracula/tmux](https://github.com/dracula/tmux), and based on [@maxpetretta's fork](https://github.com/maxpetretta/tmux-monokai-pro/).
 
-| [![Dane Williams](https://avatars2.githubusercontent.com/u/22798229?s=70&v=4",)](https://github.com/danerwilliams) | [![Ethan Edwards](https://avatars1.githubusercontent.com/u/60861925?s=70&v=4)](https://github.com/ethancedwards8) |
-| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| [Dane Williams](https://github.com/danerwilliams)                                                                  | [Ethan Edwards](https://github.com/ethancedwards8)                                                                |
-
-## Community
-
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
-
+The theme defaults are taken from [Monokai](https://monokai.nl/).
 ## License
 
 [MIT License](./LICENSE)
